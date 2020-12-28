@@ -8,7 +8,7 @@ int main(){
 	scanf("%d %d",&a,&b);
 	for(i=0;i<b-1;i++){
 		for(j=0;j<a;j++){
-			if(i==0){ // first we need to calculate the product of the first number and the second number
+			if(i==0){ // we firstly need to calculate the product of the first number and the second number
 				new_num +=a; 
 			}
 			else{ 
